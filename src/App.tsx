@@ -9,11 +9,13 @@ function App() {
     <div className={styles.parent}>
       <h1 className={styles.heading}>Hello</h1>
       <input
+        className={styles.input}
         placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
       <input
+        className={styles.input}
         placeholder="Password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}

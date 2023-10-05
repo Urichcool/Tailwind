@@ -1,18 +1,16 @@
 .parent {
-  @apply m-8 mt-0 flex flex-col shadow-xl;
+  @apply m-8 mt-0 flex flex-col shadow-xl rounded-sm overflow-hidden;
 }
 
 .heading {
   @apply text-2xl font-bold text-center text-white my-6;
 }
 
-input{
-    @apply block w-full bg-white bg-opacity-10 border-r-2  p-4
+.input{
+    @apply block w-full bg-white bg-opacity-10 border-r-2 py-3  px-4
     border-transparent focus:border-slate-400 
-    placeholder:text-slate-300;
-    &:first-child{
-        @apply border-b border-slate-400;
-    }
+    placeholder:text-slate-500 outline-none text-slate-50 mb-4 transition-colors;
+    
 }
 
 .button {
